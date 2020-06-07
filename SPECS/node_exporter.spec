@@ -15,7 +15,7 @@ Source5:        prometheus-node-exporter.xml
 BuildRoot:      %{buildroot}
 BuildArch:      x86_64
 BuildRequires:  systemd-units
-Requires:       systemd, logrotate, rsyslog > 7.2
+Requires:       systemd, logrotate, rsyslog > 7.2, firewalld-filesystem
 Requires(pre):  shadow-utils
 
 %description
